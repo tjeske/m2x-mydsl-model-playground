@@ -1,16 +1,5 @@
-component Vehicle {
+component A {
 }
 
-component ElectricCar extends Vehicle {
-	hasBattery = "true"
-}
-
-component ID3 extends ElectricCar {
-	accelerationTo100 = "7.3 s"
-	batteryCapacity = "82 kWh"
-}
-
-component Tesla extends ElectricCar {
-	accelerationTo100 = "4.0 s"
-	batteryCapacity = "100 kWh"
+component B {
 }
